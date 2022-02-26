@@ -1,0 +1,18 @@
+fieldset{
+    background-color: lawngreen;
+}
+
+input[type=text]{
+    background-color: #3CBC8D;
+}
+input[type=phone]{
+background-color: lightcoral;
+}
+
+select{
+    background: lightgreen;
+}
+
+button{
+    background: greenyellow;
+}

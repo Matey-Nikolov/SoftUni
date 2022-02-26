@@ -1,0 +1,25 @@
+.table, th, tbody, td {
+    border: 1px solid black;
+}
+
+thead {
+    color: red;
+}
+
+tbody {
+    color: aqua;
+}
+
+.table tbody tr:nth-child(2n) {
+    background-color: orange;
+}
+
+.table tr td:hover {
+    background-color: green;
+}
+
+.table tr td:hover{
+    background-color: blue;
+    color: black;
+ border: 2px darkmagenta;
+}

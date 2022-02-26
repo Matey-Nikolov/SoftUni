@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Forms</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form>
+
+            <fieldset>
+                <legend>Personal date</legend>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" autofocus><br>
+                <label for="phoneNumber">Phone number:</label><br>
+                <input type="phone" id="phoneNumber" name="phoneNumber"><br>
+            </fieldset>
+            <p>
+
+            <label for="Programing language">Choose language:</label>
+            <select id="Programing language" name="Programing language">
+                <option value="C#">C#</option>
+                <option value="C#">Java</option>
+                <option value="C#">Python</option>
+            </select>
+            <p>
+
+                <label>Choose Companies:</label>
+                <input list="Companies">
+                <datalist id="Companies">
+                    <option value="Training Academy">
+                    <option value="„Неврон-България“ ООД">
+                    <option value="Teenstation">
+                </datalist>
+            <p>
+                <label for="salary">Choose a salary:</label>
+                <select  name="salary" id="salary">
+                  <optgroup label="start salary">
+                    <option value="1800">1800</option>
+                    <option value="2500">2500</option>
+                  </optgroup>
+                  <optgroup label="Promotion">
+                    <option value="1800 -> 2600">1800 -> 2600</option>
+                    <option value="1800 -> 2600">2500 -> 3000</option>
+                  </optgroup>
+                </select>
+                
+
+                <p>
+            <textarea name="massage" rows="5" cols="15">
+                Enter text here.
+            </textarea>
+            <p>
+
+        </form>
+        <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+            <p>Calculation:
+            <input type="number" id="a">
+            +<input type="number" id="b">
+            =<output name="x" for="a b"></output>
+        <p>
+            <button type="submit form">Submit form</button>
+        </form>
+    </body>
+</html>
