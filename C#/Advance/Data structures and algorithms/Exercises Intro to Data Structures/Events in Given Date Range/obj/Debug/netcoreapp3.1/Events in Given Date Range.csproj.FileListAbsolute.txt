@@ -1,0 +1,16 @@
+C:\Users\matey\source\Exercises Intro to Data Structures\Events in Given Date Range\bin\Debug\netcoreapp3.1\Events in Given Date Range.exe
+C:\Users\matey\source\Exercises Intro to Data Structures\Events in Given Date Range\bin\Debug\netcoreapp3.1\Events in Given Date Range.deps.json
+C:\Users\matey\source\Exercises Intro to Data Structures\Events in Given Date Range\bin\Debug\netcoreapp3.1\Events in Given Date Range.runtimeconfig.json
+C:\Users\matey\source\Exercises Intro to Data Structures\Events in Given Date Range\bin\Debug\netcoreapp3.1\Events in Given Date Range.runtimeconfig.dev.json
+C:\Users\matey\source\Exercises Intro to Data Structures\Events in Given Date Range\bin\Debug\netcoreapp3.1\Events in Given Date Range.dll
+C:\Users\matey\source\Exercises Intro to Data Structures\Events in Given Date Range\bin\Debug\netcoreapp3.1\Events in Given Date Range.pdb
+C:\Users\matey\source\Exercises Intro to Data Structures\Events in Given Date Range\bin\Debug\netcoreapp3.1\Wintellect.PowerCollections.dll
+C:\Users\matey\source\Exercises Intro to Data Structures\Events in Given Date Range\obj\Debug\netcoreapp3.1\Events in Given Date Range.csproj.AssemblyReference.cache
+C:\Users\matey\source\Exercises Intro to Data Structures\Events in Given Date Range\obj\Debug\netcoreapp3.1\Events in Given Date Range.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matey\source\Exercises Intro to Data Structures\Events in Given Date Range\obj\Debug\netcoreapp3.1\Events in Given Date Range.AssemblyInfoInputs.cache
+C:\Users\matey\source\Exercises Intro to Data Structures\Events in Given Date Range\obj\Debug\netcoreapp3.1\Events in Given Date Range.AssemblyInfo.cs
+C:\Users\matey\source\Exercises Intro to Data Structures\Events in Given Date Range\obj\Debug\netcoreapp3.1\Events in Given Date Range.csproj.CoreCompileInputs.cache
+C:\Users\matey\source\Exercises Intro to Data Structures\Events in Given Date Range\obj\Debug\netcoreapp3.1\Events in Given Date Range.csproj.CopyComplete
+C:\Users\matey\source\Exercises Intro to Data Structures\Events in Given Date Range\obj\Debug\netcoreapp3.1\Events in Given Date Range.dll
+C:\Users\matey\source\Exercises Intro to Data Structures\Events in Given Date Range\obj\Debug\netcoreapp3.1\Events in Given Date Range.pdb
+C:\Users\matey\source\Exercises Intro to Data Structures\Events in Given Date Range\obj\Debug\netcoreapp3.1\Events in Given Date Range.genruntimeconfig.cache
