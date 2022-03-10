@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XOZVrT0S9av+nKCZv24uzTHFfpitHtMBv01+pKKZhRj1MvdznR/tzvJeTz6pgoJqEA1/Vr3zRgc5mEgvFhJALQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matey\\source\\Exercises Intro to Data Structures\\Words with Prefix\\Words with Prefix.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matey\\.nuget\\packages\\rm.trie\\1.3.5\\rm.trie.1.3.5.nupkg.sha512"
+  ],
+  "logs": []
+}

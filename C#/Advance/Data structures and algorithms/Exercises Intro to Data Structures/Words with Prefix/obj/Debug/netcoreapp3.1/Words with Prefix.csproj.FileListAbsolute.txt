@@ -1,0 +1,16 @@
+C:\Users\matey\source\Exercises Intro to Data Structures\Words with Prefix\bin\Debug\netcoreapp3.1\Words with Prefix.exe
+C:\Users\matey\source\Exercises Intro to Data Structures\Words with Prefix\bin\Debug\netcoreapp3.1\Words with Prefix.deps.json
+C:\Users\matey\source\Exercises Intro to Data Structures\Words with Prefix\bin\Debug\netcoreapp3.1\Words with Prefix.runtimeconfig.json
+C:\Users\matey\source\Exercises Intro to Data Structures\Words with Prefix\bin\Debug\netcoreapp3.1\Words with Prefix.runtimeconfig.dev.json
+C:\Users\matey\source\Exercises Intro to Data Structures\Words with Prefix\bin\Debug\netcoreapp3.1\Words with Prefix.dll
+C:\Users\matey\source\Exercises Intro to Data Structures\Words with Prefix\bin\Debug\netcoreapp3.1\Words with Prefix.pdb
+C:\Users\matey\source\Exercises Intro to Data Structures\Words with Prefix\bin\Debug\netcoreapp3.1\rm.Trie.dll
+C:\Users\matey\source\Exercises Intro to Data Structures\Words with Prefix\obj\Debug\netcoreapp3.1\Words with Prefix.csproj.AssemblyReference.cache
+C:\Users\matey\source\Exercises Intro to Data Structures\Words with Prefix\obj\Debug\netcoreapp3.1\Words with Prefix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matey\source\Exercises Intro to Data Structures\Words with Prefix\obj\Debug\netcoreapp3.1\Words with Prefix.AssemblyInfoInputs.cache
+C:\Users\matey\source\Exercises Intro to Data Structures\Words with Prefix\obj\Debug\netcoreapp3.1\Words with Prefix.AssemblyInfo.cs
+C:\Users\matey\source\Exercises Intro to Data Structures\Words with Prefix\obj\Debug\netcoreapp3.1\Words with Prefix.csproj.CoreCompileInputs.cache
+C:\Users\matey\source\Exercises Intro to Data Structures\Words with Prefix\obj\Debug\netcoreapp3.1\Words with Prefix.csproj.CopyComplete
+C:\Users\matey\source\Exercises Intro to Data Structures\Words with Prefix\obj\Debug\netcoreapp3.1\Words with Prefix.dll
+C:\Users\matey\source\Exercises Intro to Data Structures\Words with Prefix\obj\Debug\netcoreapp3.1\Words with Prefix.pdb
+C:\Users\matey\source\Exercises Intro to Data Structures\Words with Prefix\obj\Debug\netcoreapp3.1\Words with Prefix.genruntimeconfig.cache
