@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4CbGg1uHwqattJheag9KzB3Luz9K+lmBn+hMbWstYIoY0Jnfo9Rj+v7BF0fOeVoDG0eY4nBgacDFUq04OVr60A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lenib\\Desktop\\School-Courses\\Courses\\Applied-Programmer\\Programming-Advanced-DS-and-Algo-Basics\\05.Intro-to-Data-Structures\\Shopping-Center-Skeleton\\Shopping-Center.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lenib\\.nuget\\packages\\softuni.wintellect.powercollections\\2.0.0\\softuni.wintellect.powercollections.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

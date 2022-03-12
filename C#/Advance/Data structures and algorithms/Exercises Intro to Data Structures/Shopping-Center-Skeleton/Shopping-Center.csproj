@@ -3,11 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Words_with_Prefix</RootNamespace>
+    <RootNamespace>Shopping_Center</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="rm.Trie" Version="1.3.5" />
+    <PackageReference Include="SoftUni.Wintellect.PowerCollections" Version="2.0.0" />
   </ItemGroup>
 
 </Project>

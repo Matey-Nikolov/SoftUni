@@ -1,4 +1,4 @@
-﻿namespace Words_with_Prefix
+﻿namespace WordswithPrefix
 {
     using System;
     using rm.Trie;
@@ -7,47 +7,28 @@
     {
         static void Main()
         {
-            ITrie trieWords = new Trie();
-
+            Trie trieWords = new Trie();
 
             string[] text = Console.ReadLine()
-                .Split(" ");
-
-
-            for (int i = 0; i < text.Length; i++)
-            {
-                trieWords.AddWord(text[i]);
-            }
-
-
-            var forPrint = trieWords.GetWords();
+                .Split();
 
             string givenPrefix = Console.ReadLine();
 
-            var printWithGivenPrefix = trieWords.GetWords(givenPrefix);
-
-            foreach (var word in forPrint)
+            if (givenPrefix != "")
             {
-                Console.Write($"{word}, ");
+                for (int i = 0; i < text.Length; i++)
+                {
+                    trieWords.AddWord(text[i]);
+                }
             }
-            Console.WriteLine();
 
             Console.WriteLine(trieWords.Count());
             Console.WriteLine(trieWords.UniqueCount());
+            Console.WriteLine(string.Join(", ", trieWords.GetWords()));
 
-            foreach (var word in printWithGivenPrefix)
-            {
-                Console.Write($"{word}, ");
-            }
-            Console.WriteLine();
-
+            Console.WriteLine(string.Join(", ", trieWords.GetWords(givenPrefix)));
             trieWords.RemovePrefix(givenPrefix);
-
-            var printAgain = trieWords.GetWords();
-            foreach (var word in printAgain)
-            {
-                Console.Write($"{word}, ");
-            }
+            Console.WriteLine(string.Join(", ", trieWords.GetWords()));
         }
     }
 }
