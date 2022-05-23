@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+
+    <style>
+        #map {
+            height: 320px;
+        }
+    </style>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<div id="map">
+
+</div>
+
+    <form asp-controller="HomeController" asp-action="Result" method="post">
+        <label for="first">LAT coordinate:</label>
+        <input type="number" id="LATId">
+        <p></p>
+        <label for="last">LOT coordinate:</label>
+        <input type="number" id="LOTId">
+        <p></p>
+        <input type="submit" name="submit" value="submit"/>
+    </form>
+
+
+
+    <script>
+        var map = L.map('map').setView([42.695495, 23.321911], 13);
+
+        let LAT;
+        let LOT;
+
+        function myFunction() {
+            LAT = document.getElementById("LATId").value;
+            console.log(LAT);
+            LOT = document.getElementById("LOTId").value;
+            console.log(LOT);
+
+            Circle(LAT, LOT);
+        }
+
+
+        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic3RpbGk0NSIsImEiOiJjbDJnODhkMGgwMG53M2puenBldjdoazd1In0.xZ_3CUw7NT-4J9twzbJYgw', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 18,
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            accessToken: 'your.mapbox.access.token'
+        }).addTo(map);
+
+        function Circle() {
+
+            var circle = L.circle([LAT, LOT], {
+                color: 'red',
+                fillColor: '#f03',
+                fillOpacity: 0.5,
+                radius: 50
+            }).addTo(map);
+
+        }
+    </script>
