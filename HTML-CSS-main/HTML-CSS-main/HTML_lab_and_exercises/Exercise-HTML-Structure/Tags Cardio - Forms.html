@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <Title>Forms</Title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <Form>
+            <fieldset>
+                <legend>Customer Details</legend>
+                <div><label>First Name:<input type="text" autofocus></label></div>
+                <div><label>Last Name:<input type="text"></label></div>
+                
+                <div>
+                    Male <input type="radio">
+                    female <input type="radio">
+                    Other <input type="radio">
+                </div>
+                <div>
+                    <label>Preferred contact method: Email <input type="radio"> Phone <input type="radio"></label>
+                </div> 
+                <div>
+                    <label>Email <input type="text"></label>
+                </div>
+                <div>
+                    <label>Phone <input type="text"></label>
+                </div>
+                <label for="town">Choose a town:</label>
+                <select>
+                    <option value="Sofia">Sofia</option>
+                    <option value="Plovdiv">Plovdiv</option>
+                    <option  value="Varna">Varna</option>
+                </select>
+                </p>
+                    <label for="lenguage">Choose your lenguage.</label>
+                    <input list="lenguage" name="lenguage" id="lenguage">
+                    
+                <datalist id="lenguage">
+                    <option value="C#">
+                    <option value="HTML">
+                    <option value="Java">
+                </datalist>
+            </p>
+                <textarea id="text_area" name="text_area" rows="5" cols="20">
+                    Enter text here.
+                </textarea>
+                </p>
+<label for="check_box">I agree the Terms and Condiotion</label><br>
+            
+<input type="submit">
+
+</fieldset>
+        </Form>
+    </body>
+</html>
