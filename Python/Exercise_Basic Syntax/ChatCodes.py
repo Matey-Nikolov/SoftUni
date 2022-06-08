@@ -1,0 +1,17 @@
+n = int(input())
+
+if n > 4:
+    n = 4
+
+for i in range(n):
+
+    number = int(input())
+
+    if number == 88:
+        print('Hello')
+    elif number == 86:
+        print('How are you?')
+    elif number < 88:
+        print('GREAT!')
+    elif number > 88:
+        print('Bye.')
