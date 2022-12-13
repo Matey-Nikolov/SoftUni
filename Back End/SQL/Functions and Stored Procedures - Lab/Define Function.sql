@@ -1,0 +1,6 @@
+CREATE FUNCTION ufn_IsWordComprised(@setOfLetters VARCHAR(30), @word VARCHAR(30))
+RETURNS BIT
+AS
+BEGIN
+
+END
