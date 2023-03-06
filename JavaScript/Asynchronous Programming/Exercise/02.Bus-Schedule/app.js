@@ -5,7 +5,7 @@ function solve() {
     let buttonArrive = document.getElementById('arrive');
 
    async function getData(){
-        const stops = await fetch(`http://localhost:3030/jsonstore/bus/schedule/depot`) // schedule/serdtfdepot
+        const stops = await fetch(`http://localhost:3030/jsonstore/bus/schedule/${nextStop}`) // schedule/serdtfdepot
         .then(response => response.json())
         .catch(err => 
             {
@@ -17,7 +17,7 @@ function solve() {
         return stops;
     }
 
-    let nextStop;
+    let nextStop = 'depot';
 
     async function depart() {
         buttonDepart.disabled = true;
@@ -25,7 +25,7 @@ function solve() {
 
         nextStop = await getData();
 
-        console.log(nextStop);
+        //console.log(nextStop);
         getInfo.textContent = `Next stop ${nextStop.name}`;
     }
 
@@ -34,6 +34,8 @@ function solve() {
         buttonArrive.disabled = true;
         
         getInfo.textContent = `Arriving at ${nextStop.name}`;
+
+        nextStop = nextStop.next;
     }
 
     return {
